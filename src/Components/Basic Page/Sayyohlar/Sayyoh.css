@@ -1,0 +1,28 @@
+.accartion {
+  display: grid;
+  gap: 1rem 2rem;
+}
+.question {
+  margin-bottom: -2rem;
+}
+
+.btn {
+  width: 50px;
+  background: transparent;
+  border-color: transparent;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+  font-size: 2rem;
+  margin-left: auto;
+  background-color: #fdc600;
+}
+
+@media (max-width: 480px) {
+  .question-container {
+    width: 350px;
+    flex-direction: column;
+  }
+}
